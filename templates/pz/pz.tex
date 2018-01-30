@@ -1,17 +1,6 @@
 \documentclass[russian,utf8,simple]{eskdtext}
 
-% packages
-%
-% Тестовое наполнение текстом
-% При написании работы - удалить пакет и комманды \lipsum
-\usepackage{lipsum}
-%
-\usepackage{graphicx}
-\usepackage{datetime}
-\usepackage{enumitem} % for lists
-\usepackage{ulem} % for underlining
-\usepackage{lastpage} % Number of pages
-\usepackage{hyperref} % Links in pdf
+\input{src/packages.tex}
 
 % setup
 \newcommand{\FrontPageDepartment}{ИТ} %Факультет
@@ -32,6 +21,7 @@
 \ESKDchecker{\Professor}
 \ESKDauthor{\Student}
 \ESKDcolumnIX{МИ ВлГУ\\ \Group}
+%\ESKDdate{18/18/18}
 
 \addto\captionsrussian{\def\refname{Список использованных источников}}
 \sloppy % split long lines
