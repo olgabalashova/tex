@@ -1,0 +1,32 @@
+\documentclass[russian,utf8,simple]{eskdtext}
+
+\input{src/packages.tex}
+
+% setup
+\newcommand{\FrontPageDepartment}{ИТ} %Факультет
+\newcommand{\FrontPageSubdepartment}{ИС} %Кафедра
+\newcommand{\WorkType}{Лабораторная работа №1} %Тип работы (заголовок)
+\newcommand{\Subject}{Предмет} %по ... родительный падеж
+\newcommand{\Topic}{Тема 123} %Тема
+\newcommand{\Professor}{Иванов~И.~И.} %Руководитель
+\newcommand{\Student}{Петров~П.~П.} %Студент
+\newcommand{\Group}{ИСм-112} %Группа
+\ESKDsignature{МИВУ 230400.68 ПЗ} % Код специальности и тип работы
+\newcommand{\FrontPageDate}{\ddmmyyyydate\today} %Дата
+
+\input{src/setup.tex}
+
+% main document
+\begin{document}
+% Титул
+\ESKDthisStyle{title}
+\input{src/frontpage.tex}
+\newpage
+
+\ESKDthisStyle{formII}
+
+% Основной текст
+\input{src/text.tex}
+\newpage
+
+\end{document}

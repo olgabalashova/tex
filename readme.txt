@@ -41,3 +41,6 @@ MacTeX - http://www.tug.org/mactex/
 
 Многофункциональный редактор исходного кода (все платформы):
 TeX Studio - http://texstudio.sourceforge.net/
+
+
+Компиляция всех шаблонов выполняется программой XeLaTeX.
